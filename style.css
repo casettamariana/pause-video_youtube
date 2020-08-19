@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.grid{
+    display: grid;
+    grid-template: "back . div_pil . next";
+    grid-template-rows: 50%;
+    grid-template-columns: 2% 5% 1fr 5% 2%;
+}
+
+
+.back{grid-area: back;}
+.next{grid-area: next;}
+.div_pil{grid-area: div_pil;}
